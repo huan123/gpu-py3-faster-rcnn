@@ -1,3 +1,7 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
 # --------------------------------------------------------
 # Tensorflow Faster R-CNN
 # Licensed under The MIT License [see LICENSE for details]
@@ -20,6 +24,9 @@ import os
 import sys
 import glob
 import time
+
+import sys
+print(sys.getdefaultencoding())
 
 import tensorflow as tf
 from tensorflow.python import pywrap_tensorflow
@@ -87,12 +94,19 @@ class SolverWrapper(object):
     # tried my best to find the random states so that it can be recovered exactly
     # However the Tensorflow state is currently not available
     with open(nfile, 'rb') as fid:
-      st0 = pickle.load(fid)
-      cur = pickle.load(fid)
-      perm = pickle.load(fid)
-      cur_val = pickle.load(fid)
-      perm_val = pickle.load(fid)
-      last_snapshot_iter = pickle.load(fid)
+      # todo remove encoding='encoding='iso-8859-1'
+      st0 = pickle.load(fid, encoding='iso-8859-1')
+      cur = pickle.load(fid, encoding='iso-8859-1')
+      perm = pickle.load(fid, encoding='iso-8859-1')
+      cur_val = pickle.load(fid, encoding='iso-8859-1')
+      perm_val = pickle.load(fid, encoding='iso-8859-1')
+      last_snapshot_iter = pickle.load(fid, encoding='iso-8859-1')
+      # st0 = pickle.load(fid)
+      # cur = pickle.load(fid)
+      # perm = pickle.load(fid)
+      # cur_val = pickle.load(fid)
+      # perm_val = pickle.load(fid)
+      # last_snapshot_iter = pickle.load(fid)
 
       np.random.set_state(st0)
       self.data_layer._cur = cur

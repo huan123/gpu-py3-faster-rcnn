@@ -20,6 +20,19 @@ from nets.vgg16 import vgg16
 from nets.resnet_v1 import resnetv1
 from nets.mobilenet_v1 import mobilenetv1
 
+
+
+# CUDA_VISIBLE_DEVICES = 0
+# time
+# python. / tools / test_net.py - -imdb
+# voc_2007_test - -model
+# output / vgg16 / voc_2007_trainval / default / vgg16_faster_rcnn_iter_110000.ckpt - -cfg
+# experiments / cfgs / vgg16.yml - -net
+# vgg16 - -set
+# ANCHOR_SCALES[8, 16, 32]
+# ANCHOR_RATIOS[0.5, 1, 2]
+
+
 def parse_args():
   """
   Parse input arguments

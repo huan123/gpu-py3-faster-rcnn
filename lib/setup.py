@@ -142,3 +142,4 @@ setup(
     # inject our custom trigger
     cmdclass={'build_ext': custom_build_ext},
 )
+

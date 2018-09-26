@@ -19,7 +19,7 @@ case ${DATASET} in
     TRAIN_IMDB="voc_2007_trainval"
     TEST_IMDB="voc_2007_test"
     STEPSIZE="[50000]"
-    ITERS=70000
+    ITERS=110000
     ANCHORS="[8,16,32]"
     RATIOS="[0.5,1,2]"
     ;;
@@ -50,13 +50,14 @@ exec &> >(tee -a "$LOG")
 echo Logging output to "$LOG"
 
 set +x
+echo "######################  iters:${ITERS}"
+
 if [[ ! -z  ${EXTRA_ARGS_SLUG}  ]]; then
   NET_FINAL=output/${NET}/${TRAIN_IMDB}/${EXTRA_ARGS_SLUG}/${NET}_faster_rcnn_iter_${ITERS}.ckpt
 else
   NET_FINAL=output/${NET}/${TRAIN_IMDB}/default/${NET}_faster_rcnn_iter_${ITERS}.ckpt
 fi
 set -x
-
 if [ ! -f ${NET_FINAL}.index ]; then
   if [[ ! -z  ${EXTRA_ARGS_SLUG}  ]]; then
     CUDA_VISIBLE_DEVICES=${GPU_ID} time python ./tools/trainval_net.py \

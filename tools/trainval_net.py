@@ -26,6 +26,26 @@ def parse_args():
   """
   Parse input arguments
   """
+  CUDA_VISIBLE_DEVICES = 0
+  # time
+  # python. / tools / trainval_net.py
+  #
+  # --weight data/imagenet_weights/vgg16.ckpt
+  # --imdb voc_2007_trainval
+  # --imdbval voc_2007_test
+  # --iters  110000
+  # --cfg experiments/cfgs/vgg16.yml
+  # --net vgg16
+  # --set ANCHOR_SCALES [8,16,32]
+  #
+  # ANCHOR_RATIOS [0.5,1,2]
+  # TRAIN.STEPSIZE [80000]
+  # cfg_file: experiments/cfgs/vgg16.yml
+  # imdb_name:  voc_2007_trainval
+  # max_iters: 110000
+  # net: vgg16
+  # 注释：只在配置的参数中加入如下即可--weight开始，一直到--set ANCHOR_SCALES [8,16,32]
+
   parser = argparse.ArgumentParser(description='Train a Fast R-CNN network')
   parser.add_argument('--cfg', dest='cfg_file',
                       help='optional config file',
@@ -51,6 +71,7 @@ def parse_args():
   parser.add_argument('--set', dest='set_cfgs',
                       help='set config keys', default=None,
                       nargs=argparse.REMAINDER)
+
 
   if len(sys.argv) == 1:
     parser.print_help()
@@ -90,19 +111,19 @@ if __name__ == '__main__':
 
   print('Called with args:')
   print(args)
-
+  #args.cfg_file:experiments/cfgs/vgg16.yml
   if args.cfg_file is not None:
     cfg_from_file(args.cfg_file)
-  if args.set_cfgs is not None:
+  if args.set_cfgs is not None:#<class 'list'>: ['ANCHOR_SCALES', '[8,16,32]', 'ANCHOR_RATIOS', '[0.5,1,2]', 'TRAIN.STEPSIZE', '[80000]']
     cfg_from_list(args.set_cfgs)
 
   print('Using config:')
   pprint.pprint(cfg)
 
-  np.random.seed(cfg.RNG_SEED)
+  np.random.seed(cfg.RNG_SEED)#3
 
   # train set
-  imdb, roidb = combined_roidb(args.imdb_name)
+  imdb, roidb = combined_roidb(args.imdb_name)#voc_2007_trainval
   print('{:d} roidb entries'.format(len(roidb)))
 
   # output directory where the models are saved
@@ -133,7 +154,8 @@ if __name__ == '__main__':
     net = mobilenetv1()
   else:
     raise NotImplementedError
-    
+
   train_net(net, imdb, roidb, valroidb, output_dir, tb_dir,
             pretrained_model=args.weight,
             max_iters=args.max_iters)
+
