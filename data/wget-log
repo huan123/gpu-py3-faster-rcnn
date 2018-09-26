@@ -1,0 +1,101 @@
+--2018-06-02 16:58:20--  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Resolving ladoga.graphics.cs.cmu.edu... 128.2.220.68
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:01:49--  (try: 2)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:05:12--  (try: 3)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:08:51--  (try: 4)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:12:20--  (try: 5)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:15:36--  (try: 6)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:19:17--  (try: 7)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:22:51--  (try: 8)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:26:39--  (try: 9)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:30:32--  (try:10)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:34:29--  (try:11)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:38:29--  (try:12)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:42:12--  (try:13)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:45:37--  (try:14)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:49:31--  (try:15)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:53:28--  (try:16)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 17:57:16--  (try:17)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 18:00:45--  (try:18)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 18:04:36--  (try:19)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2018-06-02 18:08:19--  (try:20)  http://ladoga.graphics.cs.cmu.edu/xinleic/tf-faster-rcnn/res101/voc_0712_80k-110k.tgz
+Connecting to ladoga.graphics.cs.cmu.edu|128.2.220.68|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Giving up.
+
